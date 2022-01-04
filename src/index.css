@@ -58,3 +58,47 @@ code {
   text-align: right;
   margin-right: 40px;
 }
+
+/*                  end of header                */
+
+.main {
+  position: absolute;
+  margin-top: 100px;
+  width: 100%;
+}
+
+.inputs_ {
+  display: flex;
+  justify-content: space-evenly;
+}
+.inputs_ input {
+  width: 40%;
+  height: 40px;
+  border-radius: 5px;
+  border-color: #D5D4D8;
+  border-width: 1px;
+}
+
+.submit_button {
+  display: flex;
+  justify-content: center;
+}
+
+.submit_button input {
+  width: 86.7%;
+  height: 40px;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  border-style: hidden;
+  border-radius: 5px;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.01em;
+  
+  color: #FFFFFF;
+}
