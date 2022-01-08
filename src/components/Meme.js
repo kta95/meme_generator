@@ -8,16 +8,11 @@ import React from 'react'
  */
 const Meme = () => {
     return (
-        <main className="main">
-            <form >
-                <div className='inputs_'>
-                    <input type="text" placeholder='Shut up' className='from--input1'/>
-                    <input type="text" placeholder='and take my money' />
-                </div>
-                <br />
-                <div className='submit_button'>
-                    <input type="submit" value="Get a new meme image 🖼" />
-                </div>
+        <main>
+            <form className='form'>
+                    <input type="text" placeholder='Shut up' className='from-inputs'/>
+                    <input type="text" placeholder='and take my money' className='from-inputs'/>
+                    <input type="submit" value="Get a new meme image 🖼" className='submit_button'/>
             </form>
         </main>
     )

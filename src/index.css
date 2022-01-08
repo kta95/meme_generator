@@ -13,8 +13,6 @@ code {
 }
 
 .header {
-  position: absolute;
-  width: 100%;
   height: 65px;
   background: linear-gradient(90deg, #672280, #A626D3);
   display: flex;
@@ -24,8 +22,6 @@ code {
 }
 
 .logo-title {
-  width: 230px;
-  height: 26.22px;
   display: flex;
   align-items: center;
   margin-left: 20px;
@@ -61,32 +57,26 @@ code {
 
 /*                  end of header                */
 
-.main {
-  position: absolute;
-  margin-top: 100px;
-  width: 100%;
+main {
+  padding: 36px;
 }
 
-.inputs_ {
-  display: flex;
-  justify-content: space-evenly;
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
 }
-.inputs_ input {
-  width: 40%;
-  height: 40px;
+
+.form-inputs {
+
   border-radius: 5px;
   border-color: #D5D4D8;
   border-width: 1px;
+  text-indent: 5px;
 }
 
 .submit_button {
-  display: flex;
-  justify-content: center;
-}
-
-.submit_button input {
-  width: 86.7%;
-  height: 40px;
+  grid-column: 1 / -1;
   background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
   border-style: hidden;
   border-radius: 5px;
