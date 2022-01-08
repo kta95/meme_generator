@@ -10,8 +10,8 @@ const Meme = () => {
     return (
         <main>
             <form className='form'>
-                    <input type="text" placeholder='Shut up' className='from-inputs'/>
-                    <input type="text" placeholder='and take my money' className='from-inputs'/>
+                    <input type="text" placeholder='Shut up' className='form-inputs'/>
+                    <input type="text" placeholder='and take my money' className='form-inputs'/>
                     <input type="submit" value="Get a new meme image 🖼" className='submit_button'/>
             </form>
         </main>
